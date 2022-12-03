@@ -1,0 +1,360 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    text-align: center;
+    justify-content: center;
+    margin:auto;
+    background-color: #EDDFB3;
+    display: block;
+    right: 0;
+    left: 0;
+    padding: 10px 100px;
+    z-index: 2;
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 20px;
+}
+
+header h1 img{
+    height: 100px;
+    width: 100px;
+}
+
+.navigator{
+    justify-content: center;
+    background-color: #B09B71;
+    display: flex;
+    position: relative;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.navigator ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+.navigator li{
+    display: inline-block;
+    font-size: 22px;
+    font-family: 'Frank Ruhl Libre', serif;
+}
+
+.navigator a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 25px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+.navigator a:hover{
+    background: #87805E;
+    color: #EDDFB3;
+}
+
+
+i{
+    font-size: 25px;
+    cursor: pointer;
+    padding-top: 25px;
+    margin-left: 25px;
+}
+
+body{
+    background-color: #EDDFB3;
+}
+
+content p{
+    font-weight: bold;
+}
+
+.CenterText {
+    position: absolute;
+    display: block;
+    top: 45%;
+    left: 8%;
+    font-size: 110px;
+    color: black;
+    text-shadow: #B09B71 1px 0 5px;
+    font-family: 'Frank Ruhl Libre', serif;
+}
+
+.content-item{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    position: relative;
+    image-rendering: auto;
+}
+
+#section1{
+    height: 650px;
+}
+
+#section1 h3{
+    display: block;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    border-top: 5px solid #B09B71;
+    text-align: center;
+    justify-content: center;
+    margin:auto;
+    right: 0;
+    left: 0;
+    font-size: 50px;
+}
+
+.product {
+    display: grid;
+    justify-content: space-between;
+    text-align: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 200px;
+    column-gap: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    float: left;
+}
+
+.product img{
+    padding-left: 100px;
+    padding-right: 25px;
+    height: 100%;
+    align-items: center;
+    opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.product div:hover img{
+    opacity: .5;
+}
+
+.product p{
+    padding-top: 10px;
+    padding-left: 75px;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.product p1{
+    padding-left: 75px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.buttonsec1{
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #f3f0f1;
+    position: relative;
+    border-radius: 32px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.8), 6px 6px 10px rgba(0, 0, 0, 0.2);
+    color:rgba(32, 25, 4, 0.959);
+    float: left;
+    margin-top: 125px;
+    margin-left: 600px;
+}
+span {
+    font-size: 15px;
+    font-weight: semibold;
+}
+.buttonsec1 span :hover {
+    opacity: 0.3;
+    box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.8), 6px 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+#section2{
+    background-color: #B09B71;
+    height: 720px;
+}
+
+#section2 h3{
+    display: block;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    border-top: 5px solid white;
+    text-align: center;
+    justify-content: center;
+    margin:auto;
+    right: 0;
+    left: 0;
+    font-size: 50px;
+}
+
+.form {
+    float: left;
+    display: block;
+    top: 45%;
+    left: 8%;
+    padding-left: 100px;
+    padding-right: 700px;
+}
+
+.form p1{
+    font-size: 20px;
+}
+
+.form input[type=text], textarea {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.form input[type=email]{
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type="number"] {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #87805E;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: #87805E;
+}
+
+.contact{
+    float: right;
+    display: block;
+    top: 15%;
+    right: 8%;
+    padding-right: 100px;
+    justify-content: right;
+    align-items: center;
+    margin-top: 5px;
+    text-align: right;
+    font-size: 18px;
+}
+
+.gambarLogo{
+    margin-top: 50px;
+    display: block; 
+    margin-bottom: 50px;
+    margin-left: 50px;
+    padding-left: 50px;
+    padding-right: none;
+    border-right: none;
+    margin-right: none;
+}
+
+.gambarLogo img{
+    width: 50%;
+    height: 50%;
+    margin-right: auto;
+}
+
+.gambarLogo1 img{
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    background-color: #EDDFB3;
+    display: block;
+    right: 0;
+    left: 0;
+    padding-top: 25px;
+    width: 115px;
+    height: 125px;
+    margin-right: auto;
+}
+
+.output{
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    background-color: #EDDFB3;
+    display: block;
+    right: 0;
+    left: 0;
+    font-size: 25px;
+}
+.AboutMe{
+    margin-left: 0;
+    font-size: 45px;
+}
+
+footer{
+    background-color: #87805E;
+    padding-top: 50px;
+    padding-bottom: 120px;
+}
+
+footer h3{
+    padding-left: 10px;
+    padding-top: 50px;
+    float: left;
+    color: rgba(32, 25, 4, 0.959);
+}
+
+footer ul{
+    float: right;
+    list-style-type: none;
+    text-decoration: none;
+    padding-right: 100px;
+    padding-top: 50px;
+}
+
+footer a{
+    text-decoration: none;
+    color: rgba(32, 25, 4, 0.959);
+}
+
+footer img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 115px;
+    float: left;
+    padding-left: 50px;
+}
+
+.bottom{
+    background-color: #B09B71;
+    text-align: center;
+    padding: 5px 0px 5px 25px;
+    color: rgba(32, 25, 4, 0.959);
+}
